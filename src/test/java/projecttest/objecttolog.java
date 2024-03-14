@@ -15,6 +15,7 @@ import utility.propertiesfile;
 public class objecttolog {
 	@Test
 	public void emp() throws Throwable {
+				System.out.println(" the exam fee is =" +n1);
 		propertiesfile p = new propertiesfile();
 		excelutility e = new excelutility();
 		WebDriver driver = null;
