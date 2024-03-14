@@ -40,6 +40,7 @@ public class objecttolog {
 		loginpage l = new loginpage(driver);
 		Thread.sleep(3000);
 	l.logintoapp(n, pass); 
+		System.out.println(" the exam fee is =" +n1);
 	/*	String name = e.readdatafromexcel("sheet1", 2, 6);
 		String pass1 = e.readdatafromexcel("sheet1", 7, 6);
 		Thread.sleep(3000);
